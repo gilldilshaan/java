@@ -158,8 +158,168 @@ public class _2d {
     //             }
     //         }
     // }
-
     
-}
-}
 
+    // for(int i=0;i<r;i++){
+    //         for(int j=0;j<c;j++){
+    //             System.out.print("Enter element at position (" + (i+1) + "," + (j+1) + "): ");
+    //             newMatrix[i][j] = sc.nextInt();
+    //         }
+    //         System.out.println();
+    //     }
+    //     System.out.println("Enter the row number to calculate the sum: ");
+    //     int a=sc.nextInt();
+    //     System.out.println("Enter the column number to calculate the sum: ");
+    //     int b=sc.nextInt();
+    //     int [][] matrix1 = new int[a][b];
+    // for(int i=0;i<a;i++){
+    //     for(int j=0;j<b;j++){
+    //         System.out.print("Enter element at position (" + (i+1) + "," + (j+1) + "): ");
+    //         matrix1[i][j] = sc.nextInt();
+    //         }
+    //     System.out.println();
+    //     }
+    //     if(c == a){
+    
+    // int[][] MulMatrix = new int[r][b];
+
+    // for(int i=0;i<r;i++){
+    //     for(int j=0;j<b;j++){
+            
+    //         MulMatrix[i][j] = 0;
+            
+    //         for(int k=0;k<c;k++){
+    //             MulMatrix[i][j] += newMatrix[i][k] * matrix1[k][j];
+    //         }
+    //     }
+    // }
+    //         System.out.println("Product of the two matrices is: ");
+    //         for(int i=0;i<r;i++){
+    //             for(int j=0;j<c;j++){
+    //                 System.out.print(MulMatrix[i][j] + " ");
+    //             }
+    //             System.out.println();
+    //         }
+    //     }
+    //     else{
+    //         System.out.println("Matrix multiplication is not possible");
+    //     }
+
+
+// //Check if two matrices are equal or not
+//     for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 System.out.print("Enter element at position (" + (i+1) + "," + (j+1) + "): ");
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+//         System.out.println("Enter the row number to calculate the sum: ");
+//         int a=sc.nextInt();
+//         System.out.println("Enter the column number to calculate the sum: ");
+//         int b=sc.nextInt();
+//         int [][] matrix1 = new int[a][b];
+//     for(int i=0;i<a;i++){
+//         for(int j=0;j<b;j++){
+//             System.out.print("Enter element at position (" + (i+1) + "," + (j+1) + "): ");
+//             matrix1[i][j] = sc.nextInt();
+//             }
+//         System.out.println();
+//         }
+//         boolean equal = true;
+//     for(int i=0;i<a;i++){
+//         for(int j=0;j<b;j++){
+//             if(newMatrix[i][j] == matrix1[i][j]){
+//                 equal = true;
+//             }
+//             else{
+//                 equal = false;
+//             }
+//         }
+//     }
+
+//     if(equal){
+//         System.out.println("The two matrices are equal");
+//     }
+//     else{
+//         System.out.println("The two matrices are not equal");
+//     }
+
+
+//Sum of minor diagonal elements of the matrix
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+//         int sum=0;
+//         for(int i=0;i<r;i++){
+//             for(int j=c-1;j>=0;j--){
+//                 if(i+j==c-1){
+//                     sum+=newMatrix[i][j];  
+//                 }
+//             }
+
+// }
+// System.out.println("Sum of the anti-diagonal elements is: " + sum);
+
+
+
+//Check if the matrix is an identity matrix
+
+
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+// boolean flag=true;
+//         for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 if(i==j&& newMatrix[i][j]!=1){
+//                     flag=false;
+//                 }
+//                 if(i!=j && newMatrix[i][j]!=0){
+//                     flag=false;
+//                 }
+//             System.out.println();
+//             }
+//     }
+//     if(flag){
+//             System.out.println("The matrix is an identity matrix");
+//         }
+//         else{
+//             System.out.println("The matrix is not an identity matrix");
+//         }
+
+
+
+for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                newMatrix[i][j] = sc.nextInt();
+            }
+            System.out.println();
+        }
+
+int even=0, odd=0;
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                if(newMatrix[i][j] %2==0){
+                    even++;
+                }
+                else{
+                    odd++;
+                }
+
+            }
+
+
+}
+System.out.println("Number of even elements in the matrix is: " + even);
+System.out.println("Number of odd elements in the matrix is: " + odd);
+}
+}
