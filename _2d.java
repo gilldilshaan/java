@@ -298,28 +298,106 @@ public class _2d {
 
 
 
-for(int i=0;i<r;i++){
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+// int even=0, odd=0;
+//         for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 if(newMatrix[i][j] %2==0){
+//                     even++;
+//                 }
+//                 else{
+//                     odd++;
+//                 }
+
+//             }
+
+
+// }
+// System.out.println("Number of even elements in the matrix is: " + even);
+// System.out.println("Number of odd elements in the matrix is: " + odd);
+
+
+
+//Transpose of the matrix
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+
+//         for(int i=0;i<c;i++){
+//             for(int j=0;j<r;j++){
+//                 System.out.print(newMatrix[j][i] + " ");
+//                 }
+//             System.out.println();
+//             }
+
+
+//Rotate the matrix by 90 degrees
+
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+//         for(int j=0;j<c;j++){
+//             for(int i=c-1;i>=0;i--){
+//                 System.out.print(newMatrix[i][j] + " ");
+//                 }
+//             System.out.println();
+//             }
+
+
+
+//sum of two matrices
+// int [][] Matrix1 = new int[r][c];
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 newMatrix[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+// for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 Matrix1[i][j] = sc.nextInt();
+//             }
+//             System.out.println();
+//         }
+
+//         for(int i=0;i<r;i++){
+//             for(int j=0;j<c;j++){
+//                 System.out.print(newMatrix[i][j] + Matrix1[i][j] + " ");
+//                 }
+//             System.out.println();
+//             }
+
+ for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 newMatrix[i][j] = sc.nextInt();
             }
             System.out.println();
         }
 
-int even=0, odd=0;
+    int min=newMatrix[0][0];
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                if(newMatrix[i][j] %2==0){
-                    even++;
+                if(newMatrix[i][j]<min){
+                    min=newMatrix[i][j];
                 }
-                else{
-                    odd++;
-                }
-
+            }
+        }
+        System.out.println("Minimum element in the matrix is: " + min);
             }
 
 
-}
-System.out.println("Number of even elements in the matrix is: " + even);
-System.out.println("Number of odd elements in the matrix is: " + odd);
-}
 }
