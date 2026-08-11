@@ -18,5 +18,6 @@ public class weakBact {
     else{
         System.out.println("no");
     }
+    sc.close();
 }
 }
