@@ -1,0 +1,12 @@
+# Compiled class files
+*.class
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# Temp files
+tempCodeRunnerFile.java
+new.java
+try.java
