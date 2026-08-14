@@ -8,6 +8,7 @@ public class anagrampair {
         StringBuilder sb=new StringBuilder(ne);
         if(n.length()!=ne.length()){
             System.out.print("NO");
+            return;
         }
 
         for (int i=0;i<n.length();i++){
