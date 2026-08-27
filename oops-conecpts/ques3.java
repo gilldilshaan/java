@@ -7,7 +7,7 @@ public class ques3 {
         int qualtity=sc.nextInt();
 
         Product p1=new Product(price,qualtity);
-
+        
         System.out.println(p1.getPrice());
         System.out.println(p1.getQuantity());
         System.out.println(p1.totalValue());
