@@ -5,7 +5,7 @@
 **A growing collection of Java practice programs — fundamentals, loops, OOP, matrices & strings**
 
 ![Java](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Programs](https://img.shields.io/badge/Programs-27%20Java%20Files-6f42c1?style=for-the-badge&logo=java)
+![Programs](https://img.shields.io/badge/Programs-42%20Java%20Files-6f42c1?style=for-the-badge&logo=java)
 ![Status](https://img.shields.io/badge/Status-Actively%20Learning-success?style=for-the-badge)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gilldilshaan/java?style=flat-square&color=blue)
@@ -24,7 +24,7 @@
 
 ## 🎯 What is this?
 
-A collection of **27 Java practice programs** documenting my learning journey — from *"Hello World"* to matrix operations and string algorithms. Every file is a stepping stone toward **Data Structures & Algorithms (DSA)**.
+A collection of **42 Java practice programs** documenting my learning journey — from *"Hello World"* to matrix operations and string algorithms. Every file is a stepping stone toward **Data Structures & Algorithms (DSA)**.
 
 > **Learn → Code → Debug → Commit → Repeat.**
 
@@ -52,7 +52,7 @@ A collection of **27 Java practice programs** documenting my learning journey �
 
 | 📁 Folders | 📝 Programs | 🧠 Concepts | 🚧 Status |
 | :--------: | :---------: | :---------: | :-------: |
-| 8 | 27 | 10 | ✅ Active |
+| 11 | 42 | 12 | ✅ Active |
 
 </div>
 
@@ -70,6 +70,10 @@ Java/
 ├── 📂 patterns/      →  Star / number / pyramid patterns
 ├── 📂 oop/           →  Object-Oriented Programming
 ├── 📂 strings/       →  String & StringBuilder problems
+├── 📂 oops-conecpts/ →  OOP concepts with Pen, Student, BankAccount
+├── 📂 ErrorHandling/ →  Exception handling & custom exceptions
+├── 📂 ArrayList/     →  ArrayList practice programs
+└── 📂 Advanced-Array/→  Advanced array algorithms
 └── 📄 README.md      →  You are here
 ```
 
@@ -86,8 +90,8 @@ Java/
 
 | # | Program | What it demonstrates |
 | - | ------- | -------------------- |
-| 1 | [First.java](basics/First.java) | Data types, arithmetic, conversions, time breakdown |
-| 2 | [firsts.java](basics/firsts.java) | `Scanner` input, if-else, swapping, number logic |
+| 1 | [First.java](basics/First.java) | Data types, arithmetic, type conversions, time breakdown (seconds → hours/minutes/seconds) |
+| 2 | [firsts.java](basics/firsts.java) | `Scanner` input, if-else, swapping, number logic (divisible by 3/5, ascending order, square, reverse 2-digit) |
 | 3 | [Game.java](basics/Game.java) | Hello-world style starter program |
 
 </details>
@@ -110,7 +114,7 @@ Java/
 
 | # | Program | What it demonstrates |
 | - | ------- | -------------------- |
-| 1 | [meathods.java](methods/meathods.java) | Even/odd, largest of three, leap year, electricity bill, reverse, Armstrong number |
+| 1 | [meathods.java](methods/meathods.java) | Armstrong number check, reverse of a number, electricity bill calculation, leap year check |
 | 2 | [diffpattern.java](methods/diffpattern.java) | Calculator using a method with `+ - *` operators |
 
 </details>
@@ -122,7 +126,7 @@ Java/
 
 | # | Program | What it demonstrates |
 | - | ------- | -------------------- |
-| 1 | [array.java](arrays/array.java) | Most frequent word in a sentence |
+| 1 | [array.java](arrays/array.java) | Most frequent word in a sentence (word frequency count) |
 | 2 | [newarray.java](arrays/newarray.java) | Inserting an element at a given index |
 
 </details>
@@ -157,7 +161,7 @@ Java/
 | # | Program | What it demonstrates |
 | - | ------- | -------------------- |
 | 1 | [main.java](oop/main.java) | Classes, objects, constructors, methods (`Complex` number addition) |
-| 2 | [oops.java](oop/oops.java) | String manipulation & logic problems |
+| 2 | [oops.java](oop/oops.java) | String manipulation & logic problems (p-q pattern detection 3 apart) |
 
 </details>
 
@@ -169,7 +173,7 @@ Java/
 | # | Program | What it demonstrates |
 | - | ------- | -------------------- |
 | 1 | [anagrampair.java](strings/anagrampair.java) | Anagram check using `StringBuilder` |
-| 2 | [CountVowels.java](strings/CountVowels.java) | Count vowels & consonants |
+| 2 | [CountVowels.java](strings/CountVowels.java) | Count vowels & consonants in a string |
 | 3 | [Decompose.java](strings/Decompose.java) | Run-length decompression (`a3b2` → `aaabb`) |
 | 4 | [firstchar.java](strings/firstchar.java) | First non-repeating character |
 | 5 | [freqword.java](strings/freqword.java) | Most frequent word in a string |
@@ -182,6 +186,64 @@ Java/
 | 12 | [rotaion.java](strings/rotaion.java) | Check if strings are rotations of each other |
 | 13 | [Vowels.java](strings/Vowels.java) | Capitalize vowels |
 | 14 | [weakBact.java](strings/weakBact.java) | Detect `p ... q` / `q ... p` pattern (3 apart) |
+
+</details>
+
+### 🧩 OOP Concepts — [`oops-conecpts/`](oops-conecpts/) `1 program`
+
+<details>
+<summary><b>Expand — View program</b></summary>
+
+| # | Program | What it demonstrates |
+| - | ------- | -------------------- |
+| 1 | [oops.java](oops-conecpts/oops.java) | OOP fundamentals: Pen & Student classes, setters/getters, constructor, percentage calculation |
+
+</details>
+
+### ⚠️ Error Handling — [`ErrorHandling/`](ErrorHandling/) `3 programs`
+
+<details>
+<summary><b>Expand — View programs</b></summary>
+
+| # | Program | What it demonstrates |
+| - | ------- | -------------------- |
+| 1 | [ques1.java](ErrorHandling/ques1.java) | Custom `PasswordException` validator (min 8 chars, must have uppercase, lowercase, digit) |
+| 2 | [ques2.java](ErrorHandling/ques2.java) | Additional error handling practice |
+| 3 | [ques3.java](ErrorHandling/ques3.java) | Additional error handling practice |
+
+</details>
+
+### 📦 ArrayList — [`ArrayList/`](ArrayList/) `9 programs`
+
+<details>
+<summary><b>Expand — View programs</b></summary>
+
+| # | Program | What it demonstrates |
+| - | ------- | -------------------- |
+| 1 | [basic.java](ArrayList/basic.java) | ArrayList fundamentals: add, get, remove, contains, set, size, loop |
+| 2 | [ques1.java](ArrayList/ques1.java) | ArrayList practice problem 1 |
+| 3 | [ques2.java](ArrayList/ques2.java) | ArrayList practice problem 2 |
+| 4 | [ques3.java](ArrayList/ques3.java) | ArrayList practice problem 3 |
+| 5 | [ques4.java](ArrayList/ques4.java) | ArrayList practice problem 4 |
+| 6 | [ques5.java](ArrayList/ques5.java) | ArrayList practice problem 5 |
+| 7 | [ques6.java](ArrayList/ques6.java) | ArrayList practice problem 6 |
+| 8 | [ques7.java](ArrayList/ques7.java) | ArrayList practice problem 7 |
+| 9 | [ques8.java](ArrayList/ques8.java) | ArrayList practice problem 8 |
+| 10 | [ques9.java](ArrayList/ques9.java) | ArrayList practice problem 9 |
+| 11 | [ques10.java](ArrayList/ques10.java) | ArrayList practice problem 10 |
+| 12 | [ques11.java](ArrayList/ques11.java) | ArrayList practice problem 11 |
+| 13 | [ques12.java](ArrayList/ques12.java) | ArrayList practice problem 12 |
+
+</details>
+
+### 📈 Advanced Arrays — [`Advanced-Array/`](Advanced-Array/) `1 program`
+
+<details>
+<summary><b>Expand — View program</b></summary>
+
+| # | Program | What it demonstrates |
+| - | ------- | -------------------- |
+| 1 | [MaxSubArray.java](Advanced-Array/MaxSubArray.java) | Maximum subarray sum (Kadane's algorithm) |
 
 </details>
 
@@ -200,6 +262,9 @@ Java/
 | Pattern Printing | 🟩🟩🟩🟩🟩 100% |
 | OOP (Classes, Objects, Constructors) | 🟩🟩🟩🟩🟩 100% |
 | String Manipulation (`StringBuilder`) | 🟩🟩🟩🟩🟩 100% |
+| Custom Exceptions & Error Handling | 🟩🟩🟩⬜⬜ 60% — *coming next* |
+| ArrayList Operations | 🟩🟩🟩⬜⬜ 60% — *coming next* |
+| Advanced Algorithms (Kadane's) | 🟩⬜⬜⬜⬜ 20% — *coming next* |
 | Data Structures & Algorithms | 🟩🟩🟩⬜⬜ 60% — *coming next* |
 
 ---
@@ -241,14 +306,12 @@ for f in $(find . -name "*.java"); do javac "$f"; done
 
 > **Note:** compiled `.class` files are automatically ignored via `.gitignore`.
 
-</details>
-
 ---
 
 ## 🗺️ Roadmap
 
 ```text
-✅ Done         → Java Basics · Loops · Methods · Arrays · Matrices · Patterns · OOP · Strings
+✅ Done         → Java Basics · Loops · Methods · Arrays · Matrices · Patterns · OOP · Strings · OOP Concepts · Error Handling · ArrayList · Advanced Algorithms
 ⬜ In progress  → DSA (stacks, queues, linked lists, recursion)
 ⬜ Next         → Sorting & searching algorithms
 ⬜ Later        → Competitive programming (LeetCode / CodeChef)
